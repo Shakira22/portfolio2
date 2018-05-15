@@ -1,0 +1,72 @@
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 500%;
+}
+.navbar {
+  overflow: hidden;
+  text-decoration: none;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #ff6978;
+  text-align: center;
+  padding: 4% 8%;
+  text-decoration: none;
+  font-size: 210%;
+}
+
+.navbar a:hover {
+  background: pink;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #C78EB0;
+  color: white;
+}
+
+
+#page1{
+    height: 1000px;
+}
+
+
+#page2{
+    height: 1000px;
+    background-color: #F2F2F2;
+}
+#h1{
+    text-align: center;
+    font-size: 50px;
+}
+#page3{
+    height: 1000px;
+    background-color: #F2F2F2;
+}
+#h2{
+    font-size: 50px;
+    text-align: center;
+}
+#page4{
+    height: 1000px;
+}
+#h3{
+    font-size: 50px;
+    text-align: center;
+}
+#link1{
+    font-size: 40px;
+    text-decoration: none;
+    color: #ff6978;
+}
+#link2{
+    font-size: 40px;
+}
